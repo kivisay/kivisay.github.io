@@ -2,6 +2,12 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+.flower {
+  position: absolute;
+  padding: 10px 10px ;
+  
+}
+
 .header {
   padding: 5px 15px;
 
@@ -18,28 +24,73 @@ body {
 
 .box {
   background-color: whitesmoke;
-  width: 300px;
+  width: 400px;
   height: 425px;
   margin: 10px;
   border: 1px solid black;
+
+}
+
+.more {
+  color: darkgreen;
+  padding: 10px 0px;
+
+}
+
+
 
 h2 {
   padding: 2px 15px;
 
 }
 
-
-
-}
-
-#row {
+fieldset { 
+  position: relative;
+  top: 366px;
+  border-radius: 4px;
   
 }
 
-/* Basic page style resets */
-* {
-  box-sizing: border-box;
+img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
 }
-[hidden] {
-  display: none !important;
+
+.img-swap {
+  justify-content: center;
+  position: relative;
+
 }
+
+.swap {
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.swap:hover {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.person {
+
+}
+
+
+
+
+
+
+
+
+}
+  
+
+
