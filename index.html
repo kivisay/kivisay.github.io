@@ -10,23 +10,28 @@
   </head>
 
   <body>
+
     <div class="header">
       <h1>Does it Wig?</h1>
       <h3>A Nature Walk</h3>
       <hr>
       <nav>
-        <a class="menu" href="javascript:alert('mmm...work in progess')">search</a>
+        <a class="menu" href="#">Explored</a>
         / 
-        <a class="menu" href="#">explored</a>
-        / 
-        <a class="menu" href="javascript:alert('A nature walk to help find this character a wig')">about</a>
-        /
+        <a href="#popup" class="open-popup">Get to Know me</a>
         <div class="more">
-          <p>click the images to learn more</p>
+          <p>click the images to interact and learn more</p>
         </div>
       </nav>
     </div>
-
+  <div id="popup" class="popup">
+    <div class="popup-content">
+     <a href="#" class="close-popup">&times;</a>
+      <h2>Welcome!</h2>
+      <p>This is a character that would like a wig based on a plant around the art building. So your job is to decide whether the options they have will work!</p>
+      <img src="plants/wig.jpg" alt="Image" class="popup-image">
+    </div>
+  </div>
       <div class="container" id="row">
         <div class="box">
           <a class="flower">bougainvillea</a>
